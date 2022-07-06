@@ -88,9 +88,9 @@ def match_company_name(df):
 ############################################
 def save_provider(jobs_id, competitor_id, keyword):
     connection = psycopg2.connect(user="postgres",
-                                    password="]+Dr\DXm()`o=L:+",
-                                    host="35.234.81.23",
-                                    port="5432",
+                                    password="password",
+                                    host="host",
+                                    port="port",
                                     database="postgres")
     
     try:
